@@ -1,0 +1,23 @@
+!CRASS ROOTS OFL includes a small number of OpenType Typographic Features. The are special character substitutions that "OpenType aware" applications, such as professional typesetting programs (Adobe Creative Suite, &c.) can implement. Set #1 is generally on by default, and Set #2 may be turned by the user. In addition, all the glyphs may be accessed through direct selection or copy and paste from a character mapping program.
+
+
+#1 Automatic Default Ligature Set:
+(OpenType <liga>)
+
+fi ligature
+-will be substituted for 'f', 'i'
+
+fl ligature
+-will be substituted for 'f', 'l'
+
+
+#2 Optional, or Discretionaty Ligature Set:
+(OpenType <dlig>)
+
+Ampersand
+- will be substituted for 'E', 't'
+Plus or Minus
+- will be substituted for '+', '-' OR
+- will be substituted foir '+', '/', '-'
+Snark
+- will be substituted for '.', '~'
